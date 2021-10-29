@@ -24,8 +24,6 @@ Download to single directory & run index.html.
 All credit goes to me. Muahaha!
 
 ## License
-MIT License
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
