@@ -1,3 +1,20 @@
+/* Table of Contents
+#Page Structuring
+
+#Header Content
+    ##Nav Bar
+    ##Hero Image
+
+#Main Content
+    ## Service Cards
+    ## Aside
+
+#Footer Content
+ */
+
+
+
+/* #Page Structuring */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +25,8 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/* #Header Content */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +43,8 @@ header h1 {
     color: #d9dcd6;
 }
 
+
+/* ##Nav Bar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -52,11 +73,15 @@ p {
     font-size: 16px;
 }
 
+/* ##Hero Image */
 .hero-img {
     width: 100%;
     margin-bottom: 25px;
 }
 
+/* Main Content
+
+ ##Service Cards */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -73,6 +98,31 @@ p {
     margin-left: 20px;
 }
 
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* ## Aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -107,29 +157,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* #Footer */
 
 footer {
     padding: 30px;
