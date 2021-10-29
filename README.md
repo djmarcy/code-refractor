@@ -3,6 +3,7 @@
 ## Description
 Code refactor for Horiseon website to bring it in line with HTML & CSS best-practices.  Alterations include:
   - Replacement of container divs with semantic tags to aid readability
+  - Updated copyright year in footer to reflect correct year
   - Improving accessibility by adding alt-tags to images
   - Cleaning up duplicate CSS code
   - Reformatting/commenting out style.css stylesheet
